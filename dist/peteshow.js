@@ -1333,7 +1333,8 @@ window.Peteshow = Peteshow;
     var rules  = $.extend(true, getDefaultRules(), _options.rules || {})
 
     $('input:checkbox').filterFields().each(checkCheckbox);
-console.log("----> after checkbox finishes..."
+console.log("----> after checkbox finishes...")
+alert("test alert here!")
 
     $('input:radio').each(randomRadioValue)
 
@@ -1357,7 +1358,7 @@ console.log("----> after checkbox finishes..."
 
       if(_options.blur) $(element).blur()
     })
-console.log("----> after fields with rules finishes..."
+console.log("----> after fields with rules finishes...")
 
     // special rules
     var specialResult = _options.special()
